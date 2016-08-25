@@ -1,9 +1,2 @@
-.idea
-.idea/
 node_modules
-.DS_Store
-.env
-css/
-js/
-fonts/
-views/
+coverage
