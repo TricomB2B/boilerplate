@@ -2,7 +2,7 @@
 
 var siteUrl = 'crown.dev';
 
-var coreScss = 'src/scss/style.scss';
+var coreScss = 'src/scss/app.scss';
 
 var jsFiles    = [
     'src/components/**/*.factory.js',

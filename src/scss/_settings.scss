@@ -1,4 +1,18 @@
-@import '../../node_modules/foundation-sites/scss/util/util';
+// 3. Colors
+// ------------------
+$colors:(
+  primary: #17BBB0,
+  secondary: #47EBE0,
+  success: #A5C63B,
+  warning: #B3421A
+);
+$white: #fefefe;
+$black: #252525;
+
+$primary-color: get-color(primary);
+$secondary-color: get-color(secondary);
+$success-color: get-color(success);
+$warning-color: get-color(warning);
 
 // 1. Global
 // ---------
@@ -27,32 +41,23 @@ $header-font-family: $body-font-family;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $header-sizes: (
-        small: (
-                'h1': 24,
-                'h2': 20,
-                'h3': 19,
-                'h4': 18,
-                'h5': 17,
-                'h6': 16,
-        ),
-        medium: (
-                'h1': 48,
-                'h2': 40,
-                'h3': 31,
-                'h4': 25,
-                'h5': 20,
-                'h6': 16,
-        ),
+  small: (
+    'h1': 24,
+    'h2': 20,
+    'h3': 19,
+    'h4': 18,
+    'h5': 17,
+    'h6': 16,
+  ),
+  medium: (
+    'h1': 48,
+    'h2': 40,
+    'h3': 31,
+    'h4': 25,
+    'h5': 20,
+    'h6': 16,
+  ),
 );
 $header-color: inherit;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
-
-// 3. Colors
-// ------------------
-$colors:(
-  primary: #17BBB0,
-  secondary: #47EBE0,
-  success: #A5C63B,
-  warning: #B3421A
-);
