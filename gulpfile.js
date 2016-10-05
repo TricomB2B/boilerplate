@@ -126,6 +126,14 @@ gulp.task('css-vendors', function () {
     .pipe(gulp.dest(vendorDest));
 });
 
+// compress and combine svg icons
+gulp.task('svg', function () {
+  return gulp.src('./img/icons/*.svg')
+    .pipe($.svgmin())
+    .pipe($.svgstore())
+    .pipe(gulp.dest('./img/icons'));
+});
+
 // Watch Files For Changes
 gulp.task('watch', function() {
   gulp.watch(jsFiles, ['scripts']);
