@@ -9,7 +9,8 @@
   "dependencies": {
     "angular": "^1.5.7",
     "angular-resource": "^1.5.7",
-    "angular-ui-router": "^0.3.1"
+    "angular-ui-router": "^0.3.1",
+    "normalize-sass": "^1.0.0"
   },
   "devDependencies": {
     "bourbon": "^4.2.7",
@@ -37,15 +38,14 @@
     "jshint": "^2.9.2",
     "jshint-stylish": "^2.2.0",
     "normalize-sass": "^1.0.0",
-    "angular-mocks":"^1.5.8",
-    "karma":"^1.1.2",
-    "karma-chrome-launcher":"^1.0.1",
-    "karma-firefox-launcher":"^1.0.0",
-    "karma-jasmine":"^1.0.2",
-    "karma-junit-reporter":"^1.1.0",
-    "karma-phantomjs-launcher":"^1.0.1",
-    "phantomjs":"^2.1.7"
-
+    "angular-mocks": "^1.5.8",
+    "karma": "^1.1.2",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-firefox-launcher": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-junit-reporter": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.1",
+    "phantomjs": "^2.1.7"
   },
   "scripts": {
     "test": "gulp test"
