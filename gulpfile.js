@@ -94,7 +94,7 @@ gulp.task('styles', function() {
       .pipe($.cleanCss())
     .pipe($.sourcemaps.write('.'))
     .pipe(gulp.dest(cssDest))
-    .pipe(browserSync.stream());
+    .pipe(browserSync.stream({match: '**/*.css'}));
 });
 
 // Concatenate and Minify Vendor JS
