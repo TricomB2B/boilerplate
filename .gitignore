@@ -3,8 +3,4 @@
 node_modules
 .DS_Store
 .env
-
-/js/
-/views/
-/css/
-/fonts/
+dist/
