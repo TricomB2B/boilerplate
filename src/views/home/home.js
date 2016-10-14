@@ -37,7 +37,7 @@
 
         var home = this;
 
-        home.name = 'Devon Taylor';
+        home.name = 'User';
 
     }
 })();

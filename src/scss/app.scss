@@ -13,10 +13,7 @@
 // normalize it
 @import "../../node_modules/normalize.css/normalize";
 
-@import "functions";
-@import "mixins";
+@import "util/util";;
 @import "settings";
-@import "global";
-@import "modules";
-
+@import "styling/styling";
 // import additional modules here
